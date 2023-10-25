@@ -12,5 +12,6 @@ public class Factorial {
             fact *= i;
         }
         System.out.println("factorial of no. is" + fact);
+        sc.close();
     }
 }

@@ -11,17 +11,18 @@ public class Demoe {
         int choice = scanner.nextInt();
 
         switch (choice) {
-            case drink:
+            case 1:
                 System.out.println("you ordered drink");
                 break;
-            case burger:
+            case 2:
                 System.out.println("you ordered burger");
                 break;
-            case ice cream:
+            case 3:
                 System.out.println("you ordered ice cream");
                 break;
             default:
 
         }
+        scanner.close();
     }
 }

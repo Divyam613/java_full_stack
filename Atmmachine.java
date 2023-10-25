@@ -26,7 +26,8 @@ public class Atmmachine {
                 System.out.println("thankyou /ncurrent balance:" + (n - e));
                 break;
             default:
-                scanner.close();
+
         }
+        scanner.close();
     }
 }
